@@ -4,6 +4,7 @@ library(topicmodels)
 library(ggplot2)
 library(dplyr)
 library(tm)
+library(tidyverse)
 
 christmas_songs = readLines("https://gist.githubusercontent.com/DeastinY/899d532069febdb969d50eb68b7be583/raw/d4c2b7d6cd58639274fa2f061db6905c58853947/input.txt")
 
